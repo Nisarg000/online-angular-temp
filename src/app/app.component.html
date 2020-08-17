@@ -1,0 +1,17 @@
+<hello name="{{ name }}"></hello>
+<p>
+  The data we received from the component :{{title}} {{var1 + var2}}
+  <IMG src = "{{var3}}" height="50px">
+  <img [src] = "var3">
+  </p>
+  <br>
+  <table border = "1">
+    <tr>
+      <td rowspan="3">Hello</td>
+      <td>World</td>
+    </tr>
+    <tr>
+      <td [colSpan] = "cs">A simple</td> <!-- Another Way -->
+      <td  [attr.colspan] = "cs">Random Word</td> <!-- An yet another Way -->
+    </tr>
+  </table>
